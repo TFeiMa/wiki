@@ -369,7 +369,7 @@ d) **SUPR skeleton**:
     74: 'right_pinkytoe2'
 ```
 
->> Note: [digidoppel](https://digidoppel.com/) platform returns pose parameters in SMPLH format. 
+> Note: The [Meshcapade Me](https://me.meshcapade.com/) platform returns pose parameters in SMPL-X format as [`.smpl`](https://github.com/Meshcapade/smplcodec) files. 
 
 
 ### Using SMPL pose parameters 
@@ -381,6 +381,10 @@ To convert the SMPL pose parameters from Rodrigues triplets to rotation matrix n
 ### SMPL in Python 
 * [SMPL, SMPL+H, SMPL-X](https://github.com/vchoutas/smplx)
 * [STAR](https://github.com/ahmedosman/STAR)
+* [smplcodec](https://github.com/Meshcapade/smplcodec)
+
+### SMPL in Rust
+* [smpl-rs](https://github.com/Meshcapade/smpl-rs)
 
 ### SMPL for Animation 
 * [SMPL in Maya](https://github.com/Meshcapade/SMPL_maya_plugin)
